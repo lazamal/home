@@ -1,0 +1,95 @@
+/* navbar css */
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 1.5rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    color: rgb(0, 131, 253);
+}
+
+nav ul li.products a {
+    color: #f6fa00;
+}
+
+#products {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 15px;
+    /* margin: 0; */
+    padding-right: 24px;
+}
+
+#products a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+#products a:hover {
+    color: rgb(0, 131, 253);
+}
+
+/* dropdown + dropdown animation */
+
+#products-container {
+    color: white;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: block;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    /* margin-top: 10px; */
+    left: 0;
+    top: 100%;
+    z-index: 2; /* Place the dropdown above other elements */
+    border-radius: 4px;
+    background: #f1f1f1;
+    min-width: max-content;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 1s all;
+}
+
+.dropdown-content a:hover {
+    background-color: #f7f7f7;
+    transition: all 1s;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+#products-container:hover .dropdown-content,
+.dropdown-content:hover {
+    display: block; /* Keep dropdown visible when hovered */
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(0, 131, 253);
+}
+
+#products-container:hover .dropdown-content {
+    max-height: 200px;
+    opacity: 1;
+}

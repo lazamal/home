@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dor Lazarov PM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="products.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Varela+Round&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Varela+Round&display=swap"
+        rel="stylesheet">
+</head>
+
+
+
+<body>
+    <div class="products-container">
+        <div class="product1">
+            <img src="Products/leaguelogo.png" alt="Hachaluz league logo" id="leaguelogo">
+            <!-- <h1>
+                Hachaluz league
+            </h1> -->
+            <h2>
+                A one stop shop mobile web application for managing youth soccer leagues
+            </h2>
+            <div class="product-section" id="section1">
+                <div class="section-text">
+                    <h4>
+                        personas:
+                    </h4>
+                    <p>
+                        The personas can be summed into 2 segments:
+                    </p>
+                    <p>
+                        1. <strong>Managing personas </strong>– league organizers who create, add teams, manage players,
+                        and update the
+                        scoreboard.
+                    </p>
+                    <p>
+                        2. <strong>Player personas</strong> -Participants in the league, who invite friends, join teams,
+                        and keeping
+                        check on their position and
+                        score on the scoreboard.
+
+                    </p>
+                </div>
+                <div class="section-img">
+                    <img src="Products/overview.png" alt="app image scorescreen" class="product-image">
+                </div>
+            </div>
+            <div class="product-section" id="section2">
+                <div class="section-text">
+                    <h4>
+                        Acute pains:
+                    </h4>
+                    <p>
+                        these could no longer be ignored and finally led to allocating resources for the development of
+                        the product
+                    </p>
+                    <p>
+                        1. Managing personas receiving endless repeating questions, massages and what not about teams
+                        score after a game
+                        sessions. Consuming hours of work that could have used to further the organization goals.
+                    </p>
+                    <p>
+                        2. Conventional league signup methods often led to incomplete or inconsistent data collection on
+                        participating players.
+                        For example, errors in manually filled forms or miscommunication during registration frequently
+                        resulted in missing or
+                        inaccurate player details, such as contact information or preferences. The staff had to spend
+                        several hours manually
+                        reaching out to both new and returning players, often asking repetitive questions that
+                        frustrated participants. This not
+                        only increased labor costs but also risked alienating players, as the repetitive follow-ups
+                        created a negative user
+                        experience.
+                    </p>
+                </div>
+                <div class="section-img">
+                    <img src="Products/overview2.png" alt="app image scorescreen" class="product-image">
+                </div>
+            </div>
+            <div class='product-section' id="section3">
+                <div class="section-text">
+                    <h4>
+                        User Experience
+                    </h4>
+                    <p>
+                        Major League Event!
+                    </p>
+                </div>
+            </div>
+            <div class="product-section" id="section4">
+                <div class="section-text">
+                    <h4>
+                        Key features:
+                    </h4>
+                    <p>
+                        1. Scoreboard feature – streamline the score directly to the players.
+                    </p>
+                    <p>
+                        2. Signup system - users sign up into leagues and automatically get sorted into teams. Managers
+                        get
+                        streamlined league
+                        participants instantly, including key logistics information such as shirt size!
+                    </p>
+                    <p>
+                        3.Referee score report system - The referee instantly updates the scoreboard when the game ends.
+                        including featured statistics such as cards dealt, score and assiting players
+                    </p>
+                </div>
+                <div class="section-img">
+                    <img src="products/overview3.png" alt="app image scorescreen" class="product-image">
+                </div>
+            </div>
+            <div class="KPI-section">
+                <div class="section-text">
+                    <h4>
+                        KPI's met
+                    </h4>
+                    <p>
+                        1. Increased sales of league projects by 100% annually
+                        <!-- add graph -->
+                    <div class="charts">
+                        <canvas id="chart1">
+                        </canvas>
+                    </div>
+                    </p>
+                    <p>
+                        2. Streamlined logistics involving league management
+                        <!-- add graph -->
+                    <div class="charts">
+                        <canvas id="chart2">
+
+                        </canvas>
+                    </div>
+                    </p>
+                    <p>
+                        3. Increased player retention rate for future projects by an avg. of 250%
+                        <!-- add graph -->
+                    <div class="charts">
+                        <canvas id="chart3">
+
+                        </canvas>
+                    </div>
+                    </p>
+                </div>
+            </div>
+            <div class="collaboration">
+                In collaboration with <a href="https://www.drorsoft.com">Drorsoft</a> and <a
+                    href="https://hachaluz.org.il/">“Hachaluz – education through sports”</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="productCharts.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

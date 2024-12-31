@@ -1,0 +1,23 @@
+@media (width < 900px) {
+    .banner {
+        /* visibility: hidden; */
+        /* font-size: 5px; */
+        height: fit-content;
+    }
+
+    .banner-intro {
+        border: none;
+        background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 5px;
+    }
+
+    #intro-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 900px;
+    }
+    #showcase-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
